@@ -1,20 +1,17 @@
-.root{
-
-}
-
 *{
     font-family: Georgia;
     font-size: 20px;
     box-sizing: border-box;
-    /* background-color: rgb(1, 81, 156); */
-}
 
+}
+/* centering the header */
 header{
     background-color: pink;
     text-align: center;
     
 }
 
+/* resiving the font */
 h1{
     display:block;
     padding:10px;
@@ -22,6 +19,7 @@ h1{
 
 }
 
+/* resizing and adding padding */
 h2{
     font-size: 180%;
     padding-left:100px;
@@ -29,6 +27,7 @@ h2{
     margin-top: 20px;
 }
 
+/* Styling */
 h3{
     text-align: center;
     border: 2px solid white;
@@ -47,6 +46,7 @@ p{
 
 }
 
+/* add a flex box to the unlorder list */
 .nav-list{
     display:flex;
     flex-wrap: wrap;
@@ -57,8 +57,8 @@ p{
     margin-bottom: 60px;
 }
 
+/* makes the list item style */
 .nav-list li{
-    /* text-decoration: underline 6px pink; */
     display: inline;
     float: left;
     border-bottom: 2px solid black;
@@ -67,9 +67,9 @@ p{
     width: auto;
     text-align: center;
     font-size: 180%;
-    /* background-color: darkblue; */
 }
 
+/* put the profile pic in the center */
 #profile-pic{
     display:block;
     height: auto;
@@ -89,6 +89,12 @@ p{
     background-color: pink;
 }
 
+/* Adds margin to the bottom of the project section */
+#programs{
+    margin-bottom: 100px;
+}
+
+/* addes a height to each box that the pictures are within */
 .project-pic li{
     display: inline;
     height: 40vh;
@@ -106,11 +112,21 @@ p{
     
 }
 
+/* makes the first picture of the program the largest */
 .project-pic li:first-child{
     width: 100%;
     height: 100%;
 }
 
+/* adds a color to the footer */
 .bottom{
     background-color: pink;
 }
+
+/* Highlight the program flexboxes */
+.project-links:hover {
+    box-shadow: inset 1px 0px 25px 
+rgb(111, 142, 207), 0 0 20px
+rgb(250, 193, 108);
+}
+
