@@ -18,15 +18,27 @@ header{
 h1{
     display:block;
     padding:10px;
-    font-size: 300%;
+    font-size: 250%;
 
 }
 
 h2{
-    font-size: 200%;
+    font-size: 180%;
     padding-left:100px;
     padding-bottom:40px;
-    
+    margin-top: 20px;
+}
+
+h3{
+    text-align: center;
+    border: 2px solid white;
+    color: Black;
+    z-index: 1;
+    position: relative;
+    top:75px;
+    scale: 90%;
+    font-size:150%;
+    background-color: aliceblue;
 }
 
 p{
@@ -50,9 +62,9 @@ p{
     display: inline;
     float: left;
     border-bottom: 2px solid black;
-    margin:20px 10px 0px 10px;
+    margin:auto 10px auto 10px;
     height: 35px;
-    width: 110px;
+    width: auto;
     text-align: center;
     font-size: 180%;
     /* background-color: darkblue; */
@@ -99,3 +111,6 @@ p{
     height: 100%;
 }
 
+.bottom{
+    background-color: pink;
+}
