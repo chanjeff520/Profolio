@@ -42,10 +42,42 @@ h2{
     /* background-color: darkblue; */
 }
 
-img{
+#profile-pic{
     display:block;
     height: auto;
     width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* this is the list for links under project */
+.project-pic{
+    display:flex;
+    /* flex: 1, 0, 500px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.project-pic li{
+    display: inline;
+    height: 40vh;
+    flex-grow: 1;
+}
+
+/* picture that links to project */
+.project-links{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 12px;
+    
+}
+
+.project-pic li:first-child{
+    width: 100%;
+}
+
